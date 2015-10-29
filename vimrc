@@ -23,6 +23,10 @@ set nu
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set cursorcolumn
+hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
+set cursorline
+hi CursorLine ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
   augroup redhat
