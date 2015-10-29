@@ -13,9 +13,7 @@ set ruler		" show the cursor position all the time
 set fileformat=unix
 set fileencodings=utf-8,usc-bom,cp936
 syntax on
-set nocompatible
 set completeopt=preview
-set nocompatible
 set ai
 set hls
 
